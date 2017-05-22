@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             activity.requestPermissions(new String[]{
                     Manifest.permission.READ_EXTERNAL_STORAGE,
                     Manifest.permission.WRITE_EXTERNAL_STORAGE
-            }, 1);
+            }, 0);
             return false;
         }
 
